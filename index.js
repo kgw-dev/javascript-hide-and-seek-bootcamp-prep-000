@@ -1,6 +1,5 @@
 function getFirstSelector(selector) {
-var matches = document.querySelectorAll('selector');
-return matches;
+return document.querySelectorAll(selector);
 }
 
 function nestedTarget() {
