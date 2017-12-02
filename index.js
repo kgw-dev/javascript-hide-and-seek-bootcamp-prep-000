@@ -1,5 +1,6 @@
 function getFirstSelector(selector) {
-return(document.querySelectorAll('selector'));
+var matches = document.querySelectorAll('selector');
+return matches;
 }
 
 function nestedTarget() {
@@ -8,10 +9,10 @@ function nestedTarget() {
 
 function increaseRankBy(n) {
 
-  
+
 }
 
 function deepestChild() {
 
-  
+
 }
